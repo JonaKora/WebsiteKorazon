@@ -72331,16 +72331,22 @@ return new A.fY(B.xI,s,s,A.hP(new A.ey(B.y7,this.c,s),B.A,s,s,s,new A.b4(r,0,r,0
 A.DI.prototype={
 S(a){return A.alp(new A.Td())}}
 A.Td.prototype={
-$2(a,b){var s,r,q,p,o,n=null,m=b.b,l=m<500
-if(l)s=16
-else s=m<800?24:32
-r=m<200
-if(r)q=42
-else q=m<600?90:120
-if(r)p=18
-else p=m<600?28:30
-o=l?15:18
-return new A.fY(B.ck,n,n,new A.ey(B.y8,new A.dL(new A.b4(s,20,s,20),A.hO(A.c([B.Kl,A.fg("korazon",n,n,A.d6(n,n,B.j,n,n,n,n,n,n,n,n,q,n,n,B.dr,n,0.9,!0,n,n,n,n,n,n,n,n),n),B.wL,A.fg("Safety & Community for Greek Life",n,n,A.d6(n,n,B.j,n,n,n,n,n,n,n,n,p,n,n,B.iz,n,1.3,!0,n,n,n,n,n,n,n,n),n),B.jC,A.a36(n,n,n,B.cQ,n,n,!0,n,A.bW(B.D5,n,A.d6(n,n,B.j,n,n,n,n,n,n,n,n,o,n,n,n,n,1.7,!0,n,n,n,n,n,n,n,n),n),B.aM,n,n,B.b3,B.b0)],t.E),B.bE,B.am,B.b8),n),n),n)},
+$2(a,b){var s,r,q,p,o,n,m=null,l=b.b
+if(l<500)s=16
+else s=l<800?24:32
+r=l<360
+if(r)q=40
+else if(l<480)q=52
+else{if(l<800)p=72
+else p=l<1100?90:120
+q=p}if(r)o=18
+else if(l<480)o=20
+else{if(l<800)p=22
+else p=l<1100?26:30
+o=p}if(r)n=14
+else if(l<480)n=15
+else{r=l<800?16:18
+n=r}return new A.fY(B.ck,m,m,new A.ey(B.y8,new A.dL(new A.b4(s,20,s,20),A.hO(A.c([B.Kl,A.fg("korazon",m,m,A.d6(m,m,B.j,m,m,m,m,m,m,m,m,q,m,m,B.dr,m,0.9,!0,m,m,m,m,m,m,m,m),m),B.wL,A.fg("Safety & Community for Greek Life",m,m,A.d6(m,m,B.j,m,m,m,m,m,m,m,m,o,m,m,B.iz,m,1.3,!0,m,m,m,m,m,m,m,m),m),B.jC,A.a36(m,m,m,B.cQ,m,m,!0,m,A.bW(B.D5,m,A.d6(m,m,B.j,m,m,m,m,m,m,m,m,n,m,m,m,m,1.7,!0,m,m,m,m,m,m,m,m),m),B.aM,m,m,B.b3,B.b0)],t.E),B.bE,B.am,B.b8),m),m),m)},
 $S:463}
 A.p9.prototype={
 S(a){var s=this,r=null,q=A.ka(20),p=s.x,o=A.oE(s.e,r,r)
