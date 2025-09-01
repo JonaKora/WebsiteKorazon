@@ -72336,9 +72336,9 @@ if(l)s=16
 else s=m<800?24:32
 r=m<200
 if(r)q=42
-else q=m<400?90:120
+else q=m<600?90:120
 if(r)p=18
-else p=m<520?28:30
+else p=m<600?28:30
 o=l?15:18
 return new A.fY(B.ck,n,n,new A.ey(B.y8,new A.dL(new A.b4(s,20,s,20),A.hO(A.c([B.Kl,A.fg("korazon",n,n,A.d6(n,n,B.j,n,n,n,n,n,n,n,n,q,n,n,B.dr,n,0.9,!0,n,n,n,n,n,n,n,n),n),B.wL,A.fg("Safety & Community for Greek Life",n,n,A.d6(n,n,B.j,n,n,n,n,n,n,n,n,p,n,n,B.iz,n,1.3,!0,n,n,n,n,n,n,n,n),n),B.jC,A.a36(n,n,n,B.cQ,n,n,!0,n,A.bW(B.D5,n,A.d6(n,n,B.j,n,n,n,n,n,n,n,n,o,n,n,n,n,1.7,!0,n,n,n,n,n,n,n,n),n),B.aM,n,n,B.b3,B.b0)],t.E),B.bE,B.am,B.b8),n),n),n)},
 $S:463}
