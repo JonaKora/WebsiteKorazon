@@ -72352,8 +72352,17 @@ A.p9.prototype={
 S(a){var s=this,r=null,q=A.ka(20),p=s.x,o=A.oE(s.e,r,r)
 return new A.ey(new A.ab(0,s.r,0,1/0),A.hP(A.hO(A.c([B.wN,A.hP(o,B.A,new A.d0(r,r,r,r,r,B.Cs,B.hp),p,r,r,p),B.wN,A.fg(s.c,2,B.cR,B.Mg,B.bs),B.Kj,A.Eu(A.oE(A.fg(s.d,r,r,B.Mv,B.bs),r,r),1)],t.E),B.aG,B.am,B.b8),B.A,new A.d0(B.zs,r,r,q,r,r,B.aD),s.w,r,B.Bd,r),r)}}
 A.IU.prototype={
-S(a){var s=null,r=A.bN(a,s,t.w).w.a.a<600,q=r?56:80,p=r?32:50,o=r?16:22,n=r?14:18,m=r?20:40,l=t.E
-return A.hP(A.a3f(A.c([new A.dL(B.eQ,A.a3f(A.c([A.jx(new A.v6(A.awq(s,s,new A.tn("assets/logo.png",s,s)),B.ya,s),p,p),B.Kk,A.fg("Korazon Development",s,s,A.d6(s,s,B.v,s,s,s,s,s,s,s,s,o,s,s,B.iy,s,s,!0,s,s,s,s,s,s,s,s),s)],l)),s),B.Ky,A.a3f(A.c([new A.w5("Contact",new A.a7E(a),n,s),A.jx(s,s,m),new A.w5("Home",new A.a7F(a),n,s),A.jx(s,s,m)],l))],l)),B.A,B.y9,q,s,s,s)}}
+S(a){var s,r,q,p,o,n=null,m=A.bN(a,n,t.w).w.a.a,l=m<600,k=m<380,j=l?52:80
+if(l)s=k?26:32
+else s=50
+if(l)r=k?14:16
+else r=22
+if(l)q=k?13:14
+else q=18
+if(l)p=k?14:20
+else p=40
+o=t.E
+return A.hP(A.a3f(A.c([new A.dL(B.eQ,A.a3f(A.c([A.jx(new A.v6(A.awq(n,n,new A.tn("assets/logo.png",n,n)),B.ya,n),s,s),B.Kk,A.fg("Korazon Development",n,n,A.d6(n,n,B.v,n,n,n,n,n,n,n,n,r,n,n,B.iy,n,n,!0,n,n,n,n,n,n,n,n),n)],o)),n),B.Ky,A.a3f(A.c([new A.w5("Contact",new A.a7E(a),q,n),A.jx(n,n,p),new A.w5("Home",new A.a7F(a),q,n),A.jx(n,n,p)],o))],o)),B.A,B.y9,j,n,n,n)}}
 A.a7E.prototype={
 $0(){var s=A.ahr(new A.a7D(),null,t.z)
 A.ahA(this.a).o9(s)},
